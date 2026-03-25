@@ -1,0 +1,71 @@
+﻿@page
+@model SoporteDeTickets.Pages.Clientes.ClientesPageModel
+@{
+    Layout = "_Layout";
+}
+
+<h2>Lista de Clientes</h2>
+
+<div class="table-responsive">
+    <table class="clientes-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Teléfono</th>
+                <th>Fecha de Registro</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cliente in Model.Clientes)
+            {
+                <tr>
+                    <td>@cliente.Id</td>
+                    <td>@cliente.Nombre</td>
+                    <td>@cliente.Email</td>
+                    <td>@cliente.Telefono</td>
+                    <td>@cliente.FechaRegistro.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <!-- Botón Modificar -->
+                        <a asp-page="/Clientes/EditCliente"
+                           asp-route-id="@cliente.Id"
+                           class="btn btn-info btn-sm me-2">
+                            Modificar
+                        </a>
+
+                        <!-- Botón Eliminar SIN ir a otra página -->
+                        <a href="javascript:void(0);"
+                           class="btn btn-danger btn-sm"
+                           onclick="document.getElementById('deleteForm-@cliente.Id').submit();">
+                            Eliminar
+                        </a>
+
+                        <!-- Formulario oculto que llama al handler Delete -->
+                        <form id="deleteForm-@cliente.Id"
+                              method="post"
+                              asp-page-handler="Delete"
+                              asp-route-id="@cliente.Id"
+                              style="display:none;">
+                        </form>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<section class="welcome-section">
+    <div>
+    </div>
+    <div class="container">
+        <h2>¿Desea agregar un nuevo Cliente?</h2>
+        <h3>En esta seccion puedes agregar a un nuevo cliente.</h3>
+        <br />
+        <a href="/Clientes/CreateCliente" class="btn btn-create-ticket">Nuevo Cliente</a>
+    </div> 
+    <div>
+    </div>
+</section>

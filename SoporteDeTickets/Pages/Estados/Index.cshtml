@@ -1,0 +1,106 @@
+﻿@page
+@model SoporteDeTickets.Pages.Estados.EstadosPageModel
+@{
+    ViewData["Title"] = "Estados de Tickets";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Lista de Estados de Tickets</h2>
+
+    <div class="table-responsive">
+        <table id="tablaEstados" class="table estados-table">
+            <thead class="table-primary">
+                <tr>
+                    <th>Folio</th>
+                    <th>Cliente</th>
+                    <th>Incidente</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var fila in Model.Estados)
+                {
+                    <tr>
+                        <td>@fila.Id</td>
+                        <td>@fila.Cliente</td>
+                        <td>@fila.Titulo</td>   @* título del ticket *@
+                        <td>@fila.Estado</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<section class="welcome-section">
+    <div></div>
+    <div class="container">
+        <h2>Reporte de Estados</h2>
+        <h3>En este apartado puedes generar un pdf de la tabla de estados</h3>
+        <br />
+        <button type="button"
+                class="btn btn-create-ticket"
+                onclick="generarPdfEstados()">
+            Generar Reporte
+        </button>
+    </div>
+    <div></div>
+</section>
+
+@section Scripts {
+    <!-- Librerías para generar PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.0/jspdf.plugin.autotable.min.js"></script>
+
+    <script>
+        function generarPdfEstados() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF('p', 'pt', 'a4'); // vertical, puntos, A4
+
+            // Título del reporte
+            doc.setFontSize(16);
+            doc.text("Reporte de Estados de Tickets", 40, 40);
+
+            const tabla = document.getElementById("tablaEstados");
+            const head = [];
+            const body = [];
+
+            // Encabezados
+            const ths = tabla.querySelectorAll("thead tr th");
+            ths.forEach(th => head.push(th.innerText.trim()));
+
+            // Filas del cuerpo
+            const trs = tabla.querySelectorAll("tbody tr");
+            trs.forEach(tr => {
+                const row = [];
+                tr.querySelectorAll("td").forEach(td => {
+                    row.push(td.innerText.trim());
+                });
+                body.push(row);
+            });
+
+            // Tabla en el PDF
+            doc.autoTable({
+                head: [head],
+                body: body,
+                startY: 70,
+                styles: {
+                    fontSize: 10,
+                    cellPadding: 4
+                },
+                headStyles: {
+                    fillColor: [30, 58, 138] // Azul similar al sistema
+                }
+            });
+
+            // Pie con fecha
+            const fecha = new Date().toLocaleDateString();
+            doc.setFontSize(10);
+            doc.text("Generado el: " + fecha, 40, doc.internal.pageSize.getHeight() - 30);
+
+            // Descargar
+            doc.save("reporte_estados.pdf");
+        }
+    </script>
+}

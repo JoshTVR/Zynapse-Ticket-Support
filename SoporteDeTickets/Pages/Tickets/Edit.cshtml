@@ -1,0 +1,59 @@
+﻿@page "{id:int}"
+@model SoporteDeTickets.Pages.Tickets.EditTicketModel
+@{
+    Layout = "_Layout";
+}
+
+<h2 class="centered-title">Modificar Ticket</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Ticket.Id" />
+
+    <div class="mb-3">
+        <label asp-for="Ticket.Titulo" class="form-label"></label>
+        <input asp-for="Ticket.Titulo" class="form-control" />
+        <span asp-validation-for="Ticket.Titulo" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Ticket.Descripcion" class="form-label"></label>
+        <textarea asp-for="Ticket.Descripcion" class="form-control"></textarea>
+        <span asp-validation-for="Ticket.Descripcion" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Ticket.ClienteId" class="form-label">Cliente</label>
+        <select asp-for="Ticket.ClienteId" class="form-select">
+            @foreach (var c in Model.Clientes)
+            {
+                <option value="@c.Id">@c.Nombre</option>
+            }
+        </select>
+        <span asp-validation-for="Ticket.ClienteId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Ticket.EstadoId" class="form-label">Estado</label>
+        <select asp-for="Ticket.EstadoId" class="form-select">
+            @foreach (var e in Model.Estados)
+            {
+                <option value="@e.Id">@e.Nombre</option>
+            }
+        </select>
+        <span asp-validation-for="Ticket.EstadoId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Ticket.Prioridad" class="form-label">Prioridad</label>
+        <select asp-for="Ticket.Prioridad" class="form-select">
+            <option value="1">Baja</option>
+            <option value="2">Media</option>
+            <option value="3">Alta</option>
+        </select>
+        <span asp-validation-for="Ticket.Prioridad" class="text-danger"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+    <a asp-page="/Tickets/Index" class="btn btn-secondary ms-2">Cancelar</a>
+</form>

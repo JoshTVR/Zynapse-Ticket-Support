@@ -1,0 +1,32 @@
+﻿@page
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Bienvenido al Sistema de Tickets";
+}
+
+<section class="welcome-section">
+    <div class="container">
+        <h2>Bienvenido a Nuestro Sistema de Tickets</h2>
+        <p>¿Tienes un problema técnico? ¡Crea un ticket y nuestro equipo te ayudará rápidamente!</p>
+        <a href="/Login" class="btn btn-info">Inicia Sesion</a>
+        <a href="/Register" class="btn btn-info">Registrarte</a>
+    </div>
+</section>
+
+<section class="info-cards">
+    <div class="card card-help">
+        <h3>Productos</h3>
+        <p>Observa los nuevos productos y servicios que ofrecemos.</p>
+        <a href="/" class="btn btn-close-white">Ver nuestos Productos</a>
+    </div>
+    <div class="card card-tickets">
+        <h3>FAQ</h3>
+        <p>Explore preguntas y respuestas frecuentes sobre los productos y soluciones.</p>
+        <a href="/" class="btn btn-view-tickets">Ver preguntas frecuentes</a>
+    </div>
+    <div class="card card-help">
+        <h3>Centro de Ayuda</h3>
+        <p>Consulta guías y artículos para resolver problemas comunes sin necesidad de crear un ticket.</p>
+        <a href="/HelpCenter" class="btn btn-help-center">Ir al Centro de Ayuda</a>
+    </div>
+</section>

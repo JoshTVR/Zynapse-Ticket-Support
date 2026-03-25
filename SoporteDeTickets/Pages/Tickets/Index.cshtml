@@ -1,0 +1,69 @@
+﻿@page
+@model SoporteDeTickets.Pages.Tickets.TicketsPageModel
+@{
+    Layout = "_Layout";
+}
+
+<h2>Gestión de Tickets</h2>
+
+<table class="tickets-table">
+    <thead>
+        <tr>
+            <th>Folio</th>
+            <th>Cliente</th>
+            <th>Incidente</th>
+            <th>Estado</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ticket in Model.TicketList)
+        {
+            <tr>
+                <td>@ticket.Id</td>
+                <td>@ticket.Cliente.Nombre</td>
+                <td>@ticket.Titulo</td>
+                <td>@ticket.Estado.Nombre</td>
+                <td>@ticket.FechaCreacion.ToString("dd/MM/yyyy")</td>
+                <td>
+
+                    <!-- Botón Modificar -->
+                    <a asp-page="/Tickets/Edit"
+                       asp-route-id="@ticket.Id"
+                       class="btn btn-info btn-sm">
+                        Modificar
+                    </a>
+
+                    <!-- Botón Eliminar SIN IR A OTRA PÁGINA -->
+                    <a href="javascript:void(0);"
+                       class="btn btn-danger btn-sm"
+                       onclick="document.getElementById('deleteForm-@ticket.Id').submit();">
+                        Eliminar
+                    </a>
+
+                    <form id="deleteForm-@ticket.Id"
+                          method="post"
+                          asp-page-handler="Delete"
+                          asp-route-id="@ticket.Id"
+                          style="display:none;">
+                    </form>
+
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<section class="welcome-section">
+    <div></div>
+    <div class="container">
+        <h2>Crear un Ticket</h2>
+        <h3>En esta seccion puedes crear un ticket nuevo.</h3>
+        <br />
+        <a href="/Tickets/Create" class="btn btn-create-ticket">Nuevo Ticket</a>
+    </div>
+    <div></div>
+</section>

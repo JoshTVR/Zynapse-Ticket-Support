@@ -1,0 +1,476 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\estados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\estados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\estados\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\estados\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\tickets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\tickets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\models\\estadoclientevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\models\\estadoclientevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\tickets\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\tickets\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\clientes\\editcliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\clientes\\editcliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\clientes\\editcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\clientes\\editcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\clientes\\createcliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\clientes\\createcliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\clientes\\createcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\clientes\\createcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\models\\ticketsefrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\models\\ticketsefrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\tickets\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\tickets\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\tickets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\tickets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\tickets\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\tickets\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\models\\ticketspagemodel..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\models\\ticketspagemodel..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\tickets\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\tickets\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|c:\\users\\naihi\\downloads\\soportedetickets\\soportedetickets\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA720122-720A-4257-9055-3905731DE390}|SoporteDeTickets\\SoporteDeTickets.csproj|solutionrelative:soportedetickets\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Index.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Tickets\\Index.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Index.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Tickets\\Index.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T06:52:34.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EstadoClienteVM.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\EstadoClienteVM.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Models\\EstadoClienteVM.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\EstadoClienteVM.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Models\\EstadoClienteVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:24:39.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Estados\\Index.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Estados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Estados\\Index.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Estados\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T21:35:12.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Estados\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Estados\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Estados\\Index.cshtml.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Estados\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:57:51.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateCliente.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\CreateCliente.cshtml.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Clientes\\CreateCliente.cshtml.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\CreateCliente.cshtml.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Clientes\\CreateCliente.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:28:19.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:10:24.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Create.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Tickets\\Create.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Create.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Tickets\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T06:55:56.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T00:36:31.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Tickets\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Index.cshtml.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Tickets\\Index.cshtml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:03:22.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T06:54:55.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketsEfRepo.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\TicketsEfRepo.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Models\\TicketsEfRepo.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\TicketsEfRepo.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Models\\TicketsEfRepo.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:32:34.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\EditCliente.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Clientes\\EditCliente.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\EditCliente.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Clientes\\EditCliente.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T23:25:24.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditCliente.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\EditCliente.cshtml.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Clientes\\EditCliente.cshtml.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\EditCliente.cshtml.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Clientes\\EditCliente.cshtml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T23:25:36.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\CreateCliente.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Clientes\\CreateCliente.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Clientes\\CreateCliente.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Clientes\\CreateCliente.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T09:27:54.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\Cliente.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T23:35:03.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\Ticket.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T23:31:33.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TicketsPageModel..cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\TicketsPageModel..cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Models\\TicketsPageModel..cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\TicketsPageModel..cs",
+              "RelativeToolTip": "SoporteDeTickets\\Models\\TicketsPageModel..cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:32:54.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Tickets\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Edit.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Tickets\\Edit.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T22:13:20.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Tickets\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Delete.cshtml.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Tickets\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:21:16.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Tickets\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Edit.cshtml.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Tickets\\Edit.cshtml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:13:30.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Tickets\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Tickets\\Create.cshtml.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Tickets\\Create.cshtml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:28:12.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\appsettings.json",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\appsettings.json",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\appsettings.json",
+              "RelativeToolTip": "SoporteDeTickets\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-04T23:48:09.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Program.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Program.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Program.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T23:49:59.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Estado.cs",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\Estado.cs",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Models\\Estado.cs",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Models\\Estado.cs",
+              "RelativeToolTip": "SoporteDeTickets\\Models\\Estado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T23:35:36.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Index.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T23:37:45.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "SoporteDeTickets\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAGwBAAAAAAAAAAAqwIMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-05T00:40:29.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-05T06:57:32.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SoporteDeTickets\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\naihi\\Downloads\\SoporteDeTickets\\SoporteDeTickets\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "SoporteDeTickets\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T23:44:36.345Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

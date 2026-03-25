@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Sistema de Tickets</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <header class="header">
+        <div class="container">
+            <h1>Soporte de Tickets Zynapse</h1>
+            <br />
+            <nav>
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/Tickets">Tickets</a></li>
+                    <li><a href="/Clientes">Clientes</a></li>
+                    <li><a href="/Estados">Estados</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Área donde se renderiza el contenido específico de cada página -->
+    <main>
+        <div class="container">
+            @RenderBody()  <!-- Esto renderiza el contenido de las vistas -->
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Soporte de Tickets | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

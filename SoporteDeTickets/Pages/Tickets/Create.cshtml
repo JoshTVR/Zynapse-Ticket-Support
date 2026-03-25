@@ -1,0 +1,45 @@
+﻿@page
+@model SoporteDeTickets.Pages.Tickets.CreateTicketModel
+@{
+    Layout = "_Layout";
+}
+
+<form method="post">
+    <h2 class="centered-title">Crear Nuevo Ticket</h2>
+
+    <div>
+        <label asp-for="Ticket.Titulo"></label>
+        <input asp-for="Ticket.Titulo" class="form-control" />
+        <span asp-validation-for="Ticket.Titulo" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Ticket.Descripcion"></label>
+        <textarea asp-for="Ticket.Descripcion" class="form-control"></textarea>
+        <span asp-validation-for="Ticket.Descripcion" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Ticket.ClienteId"></label>
+        <select asp-for="Ticket.ClienteId" class="form-select">
+            @foreach (var cliente in Model.Clientes)
+            {
+                <option value="@cliente.Id">@cliente.Nombre</option>
+            }
+        </select>
+        <span asp-validation-for="Ticket.ClienteId" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Ticket.EstadoId"></label>
+        <select asp-for="Ticket.EstadoId" class="form-select">
+            @foreach (var estado in Model.Estados)
+            {
+                <option value="@estado.Id">@estado.Nombre</option>
+            }
+        </select>
+        <span asp-validation-for="Ticket.EstadoId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Crear Ticket</button>
+</form>

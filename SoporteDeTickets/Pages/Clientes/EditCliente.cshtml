@@ -1,0 +1,32 @@
+﻿@page "{id:int}"
+@model SoporteDeTickets.Pages.Clientes.EditClienteModel
+@{
+    Layout = "_Layout";
+}
+
+<h2>Modificar Cliente</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Cliente.Id" />
+
+    <div>
+        <label asp-for="Cliente.Nombre"></label>
+        <input asp-for="Cliente.Nombre" class="form-control" />
+        <span asp-validation-for="Cliente.Nombre" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Cliente.Email"></label>
+        <input asp-for="Cliente.Email" class="form-control" />
+        <span asp-validation-for="Cliente.Email" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Cliente.Telefono"></label>
+        <input asp-for="Cliente.Telefono" class="form-control" />
+        <span asp-validation-for="Cliente.Telefono" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Guardar cambios</button>
+    <a asp-page="/Clientes/Index" class="btn btn-secondary mt-3">Cancelar</a>
+</form>
