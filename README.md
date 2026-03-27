@@ -1,68 +1,89 @@
-# Soporte de Tickets — Zynapse
+<div align="center">
 
-Sistema web de gestión de tickets de soporte técnico desarrollado con ASP.NET Core y SQL Server.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,50:3b82f6,100:0ea5e9&height=180&section=header&text=Zynapse%20Ticket%20Support&fontSize=44&fontAlignY=38&animation=fadeIn&desc=ASP.NET%20Core%209%20·%20Razor%20Pages%20·%20SQL%20Server&descAlignY=60&descSize=15&fontColor=ffffff"/>
 
-## Funcionalidades
+<br/>
 
-- **Tickets** — crear, listar, modificar y eliminar tickets de soporte
-- **Clientes** — gestión completa de clientes
-- **Estados** — reporte de tickets por estado con exportación a PDF
+[![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-9-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](https://learn.microsoft.com/en-us/sql/sql-server)
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp)
+[![License](https://img.shields.io/badge/License-MIT-7c3aed?style=for-the-badge)](LICENSE)
 
-## Stack
-
-- ASP.NET Core 9.0 (Razor Pages)
-- Entity Framework Core 9.0
-- SQL Server (Stored Procedures)
-- Bootstrap 5
-
-## Requisitos
-
-- .NET 9 SDK
-- SQL Server (local o remoto)
-- Visual Studio 2022 o VS Code con extensión C#
-
-## Configuración
-
-**1. Crear la base de datos**
-
-Ejecuta el script SQL incluido en `DOCUMENTACION.md` (Parte 2) en SQL Server Management Studio para crear las tablas y los stored procedures necesarios.
-
-**2. Connection string**
-
-Edita `SoporteDeTickets/appsettings.json` con los datos de tu servidor:
-
-```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=TU_SERVIDOR;Database=SoporteTickets;Trusted_Connection=True;TrustServerCertificate=True;"
-}
-```
-
-**3. Ejecutar**
-
-```bash
-cd SoporteDeTickets
-dotnet run
-```
-
-La app estará disponible en `https://localhost:7232`.
-
-## Estructura del proyecto
-
-```
-SoporteDeTickets/
-├── Data/               → DbContext (EF Core)
-├── Models/             → Entidades y repositorio
-├── Pages/
-│   ├── Tickets/        → CRUD de tickets
-│   ├── Clientes/       → Gestión de clientes
-│   └── Estados/        → Reporte de estados
-└── wwwroot/            → Archivos estáticos (CSS, JS)
-```
-
-## Documentación
-
-Ver [DOCUMENTACION.md](DOCUMENTACION.md) para la explicación completa de la arquitectura, base de datos, flujo de datos y notas de mejora.
+</div>
 
 ---
 
-Joshua Hernandez — UTT, Ingeniería en Entornos Virtuales y Negocios Digitales
+## About
+
+**Zynapse Ticket Support** is a web-based technical support ticket management system built with ASP.NET Core 9 and Razor Pages.
+
+Designed to handle the full lifecycle of a support request — from creation and assignment to resolution and PDF reporting — with a clean multi-client architecture.
+
+---
+
+## Features
+
+- **Ticket CRUD** — create, view, update, and close support tickets
+- **Client Management** — manage clients tied to ticket requests
+- **Status Tracking** — open, in-progress, and resolved states
+- **PDF Export** — generate printable reports per ticket or by status
+- **Razor Pages UI** — server-rendered, fast, and straightforward
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+[![C#](https://skillicons.dev/icons?i=cs)](https://learn.microsoft.com/en-us/dotnet/csharp)
+[![.NET](https://skillicons.dev/icons?i=dotnet)](https://dotnet.microsoft.com)
+[![SQL Server](https://skillicons.dev/icons?i=sqlserver)](https://learn.microsoft.com/en-us/sql/sql-server)
+[![Visual Studio](https://skillicons.dev/icons?i=visualstudio)](https://visualstudio.microsoft.com)
+
+</div>
+
+---
+
+## Project Structure
+
+```
+SoporteDeTickets/
+├── Pages/              # Razor Pages (UI + page models)
+├── Models/             # Domain entities
+├── Data/               # EF Core DbContext + migrations
+└── wwwroot/            # Static assets
+
+SoporteDeTickets.sln    # Visual Studio solution
+DOCUMENTACION.md        # Full Spanish technical documentation
+```
+
+---
+
+## Local Setup
+
+### Prerequisites
+
+- [.NET 9 SDK](https://dotnet.microsoft.com/download)
+- SQL Server (local or Express)
+
+### Steps
+
+```bash
+git clone https://github.com/JoshTVR/Zynapse-Ticket-Support.git
+cd Zynapse-Ticket-Support
+```
+
+Update the connection string in `appsettings.json`, then:
+
+```bash
+dotnet ef database update
+dotnet run --project SoporteDeTickets
+```
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:3b82f6,100:512BD4&height=100&section=footer&animation=fadeIn"/>
+
+</div>
